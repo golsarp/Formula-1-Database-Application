@@ -1,0 +1,55 @@
+<!--
+    COMP306-
+
+-->
+<html>
+
+<head>
+  <title>Comparator</title>
+  <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+  <div class="login">
+    <form action='results.php' method="post">
+      <fieldset>
+        <legend class="heading">Driver Comparator</legend>
+        <input type="text" name="fname1" placeholder="Driver 1 First Name">
+        <input type="text" name="surname1" placeholder="Driver 1 Surname">
+        <input type="text" name="fname2" placeholder="Driver 2 First Name">
+        <input type="text" name="surname2" placeholder="Driver 2 Surname">
+        <input type="submit" value="Compare" name= "driver">
+      </fieldset>
+      <fieldset>
+        <legend class="heading">Result Count</legend>
+        <input type="text" name="count_in" placeholder="Count">
+        <input type="submit" value="Search" name= "count">
+      </fieldset>
+      <fieldset>
+        <legend class="heading">Bottom Podium</legend>
+        <input type="text" name="grid_in" placeholder="Grid Input">
+        <input type="submit" name= "grid_s" value="submit">
+      </fieldset>
+      <fieldset>
+        <legend class="heading">Nations</legend>
+        <input type="submit" value="Nation Champs" name="champ">
+      </fieldset>
+      <fieldset>
+        <legend class="heading">Raced Against</legend>
+        <input type="text" name="fname_against" placeholder="Driver First Name">
+        <input type="text" name="sname_against" placeholder="Driver Last Name">
+        <input type="submit" value="submit" name="raced_against">
+      </fieldset>
+      <fieldset>
+        <legend class="heading">Find Fastest In Each Lattitude and Langitude (Enter > or < indicating each hemsphere lang and lat)</legend>
+        <input type="text" name="lat" placeholder="Latitude">
+        <input type="text" name="lang" placeholder="Longitude">
+        <input type="submit" value="submit" name="fastest">
+      </fieldset>
+    </form>
+  </div>
+
+</body>
+
+</html>
